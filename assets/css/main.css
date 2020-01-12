@@ -1,0 +1,83 @@
+/* color palet
+
+background -> #005555;
+
+*/
+
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: #005031 url("../images/pot-leaf.png");
+  color: #fff;
+  overflow-x: hidden;
+}
+.container-fluid {
+  margin-top: 20px;
+  padding: 60px 50px 0;
+}
+.bg-blue{
+  background-color: #1c2833;
+}
+.bg-orange{
+  background-color: #4b5555;
+}
+.leftnav{
+  margin-top: 55px;
+  padding-top: 20px;
+  padding-left: 50px;
+  width: 100%;
+  min-height: 837px;
+  background-color: #2e343b;
+  border-right: solid 2px #1c2833 ;
+}
+/* homepage */
+.confirm{
+  margin-top: 250px;
+  margin-left: 50px;
+}
+#cover{
+  overflow-y:hidden;
+}
+
+.cover-container {
+
+  max-width: 60em;
+}
+
+.cover-heading{
+  font-size: 3.0rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #1c2833;
+}
+
+/*=======================*/

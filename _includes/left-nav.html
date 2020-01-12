@@ -1,0 +1,70 @@
+{% if page.category =="Marijuana" %}
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Seeds' %}active{% endif %}" href="#">Seeds{% if {{page.title}} == "Seeds" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Growing' %}active{% endif %}" href="#">Growing{% if {{page.title}} == "Growing" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Vapes' %}active{% endif %}" href="#">Vapes{% if {{page.title}} == "Vapes" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Bongs and Pipes' %}active{% endif %}" href="{{site.url}}/marijuana/bongs-pipes">Bongs and Pipes{% if {{page.title}} == "Bongs and Pipes" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Pets' %}active{% endif %}" href="#">Pets{% if {{page.title}} == "Pets" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Education' %}active{% endif %}" href="#">Education{% if {{page.title}} == "Education" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+  </ul>
+{% endif %}
+{% if page.title =="Himp" %}
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Active{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Link{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Link{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Disabled{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+  </ul>
+{% endif %}
+{% if page.title =="CBD" %}
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Active{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Link{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Link{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Disabled{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+  </ul>
+{% endif %}
+{% if page.title =="Other" %}
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Active{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Link{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Link{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if {{page.title}} == 'Marijuana' %}active{% endif %}" href="#">Disabled{% if {{page.title}} == "Marijuana" %} <span class="sr-only">(current)</span>{% endif %}</a>
+    </li>
+  </ul>
+{% endif %}
